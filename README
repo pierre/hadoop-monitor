@@ -1,0 +1,6 @@
+Debugging
+=========
+
+Define DEBUG as such:
+
+    gcc -I/path/to/libusb-1.0.8/libusb -L/path/to/libusb-1.0.8/libusb -lusb-1.0 -DDEBUG usb.c
